@@ -1,4 +1,6 @@
+# Refactor by Mark Salvino
 # Dino management refactored for clarity, maintainability, and testability
+# I separated the spec into its own spec/ directory
 
 class Dino
   attr_accessor :name, :category, :period, :diet, :age, :health, :comment, :age_metrics
