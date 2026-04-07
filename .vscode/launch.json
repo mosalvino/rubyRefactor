@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "rdbg",
+            "name": "RSpec - current file",
+            "request": "launch",
+            "command": "rspec",
+            "script": "${file}",
+            "args": [
+                "--format",
+                "documentation"
+            ],
+            "askParameters": false
+        },
+        {
+            "type": "rdbg",
+            "name": "RSpec - all tests",
+            "request": "launch",
+            "command": "rspec",
+            "script": "",
+            "args": [
+                "spec/",
+                "--format",
+                "documentation"
+            ],
+            "askParameters": false
+        }
+    ]
+}
